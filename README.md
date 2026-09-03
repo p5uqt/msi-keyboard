@@ -188,7 +188,7 @@ keymap.json    per-key LED overrides (edited by the web UI)
 
 ## Notes
 
-- Inspired by [msi-perkeyrgb](https://github.com/niknetniko/msi-perkeyrgb), but unlike it, **the keyboard does not flicker when changing colors** — updates are sent as packed reports in a single transfer.
+- Inspired by [msi-perkeyrgb](https://github.com/Askanzz/msi-perkeyrgb), but unlike it, **the keyboard does not flicker when changing colors** — updates are sent as packed reports in a single transfer.
 - Only one process should talk to the keyboard at a time (the libusb handle is exclusive).
 - The protocol supports up to 102 LED slots per HID report; the library auto-chunks larger sets.
 - Tested on MSI GS65 Stealth 9SF. Should work on other SteelSeries KLC keyboards with VID:PID `1038:1122`.
